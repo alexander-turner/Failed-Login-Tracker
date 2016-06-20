@@ -2,7 +2,7 @@
 
 $Date= Get-date     
 
-$DC= "DESKTOP-SRQOBC2" #"TSDC1.HQ.TSTS.com"
+$DC= "TSDC1.HQ.TSTS.com" # Go to System Properties and input what you see under computer name
 
 $filePath = "~/Documents/failedLogins/"
 if(!(Test-Path $filePath)) {
